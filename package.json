@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build:css": "tailwindcss -i Frontend/index.css -o Frontend/output.css --watch",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.2.4"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "firebase": "^11.6.0",
+    "multer": "^1.4.5-lts.2",
+    "react-router-dom": "^7.4.1"
+  }
+}
